@@ -6,9 +6,8 @@ public class El_Problema_De_Ser_Rico {
         Scanner sc = new Scanner(System.in);
 
         int i = 0;
-        int suma_litros = 0;
         int resta_litros = 0;
-
+        int suma_litros = 0;
 
         System.out.println("¿Cuántos casos de prueba quieres hacer?");
         int numero_pruebas = sc.nextInt();
