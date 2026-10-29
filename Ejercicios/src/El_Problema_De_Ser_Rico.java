@@ -16,7 +16,7 @@ public class El_Problema_De_Ser_Rico {
         {
             int n = 1;
 
-            System.out.println("¿Cuántos acuarios hay?");
+            System.out.print("¿Cuántos acuarios hay? ");
             int numero_acuarios = sc.nextInt();
 
             while (numero_acuarios <=0 && numero_acuarios >= 10000)
@@ -25,7 +25,7 @@ public class El_Problema_De_Ser_Rico {
                 numero_acuarios = sc.nextInt();
             }
 
-            System.out.println("¿Cuántos litros tiene el primer compartimento?");
+            System.out.print("¿Cuántos litros tiene el primer compartimento? ");
             int litros_acuario = sc.nextInt();
 
             while (litros_acuario <=0 && litros_acuario >= 10000)
@@ -34,7 +34,7 @@ public class El_Problema_De_Ser_Rico {
                 litros_acuario = sc.nextInt();
             }
 
-            System.out.println("¿Cuánta diferencia hay entre acuarios?");
+            System.out.print("¿Cuánta diferencia hay entre acuarios? ");
             int diferencia_litro = sc.nextInt();
 
             while (diferencia_litro <=0 && diferencia_litro >= 10000)
