@@ -7,9 +7,9 @@ public class Chicles_De_Regalo {
 
         int envoltorios = 0;
         int chicles_gratis = 0;
+        int chicles_regalo = 0;
         int total_chicles = 0;
         int resto_chicles = 0;
-        int chicles_regalo = 0;
 
         while (envoltorios >= 0){
             System.out.print("Cuantos envoltorios necesitas: ");
