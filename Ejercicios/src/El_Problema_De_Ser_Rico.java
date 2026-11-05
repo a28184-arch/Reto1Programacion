@@ -49,17 +49,19 @@ public class El_Problema_De_Ser_Rico {
             while (n < numero_acuarios)
             {
                 resta_litros -= diferencia_litro;
-                suma_litros += resta_litros;
-                n+=1;
+                if (resta_litros >= 0){
+                    suma_litros += resta_litros;
+                    n+=1;
+                }
+                else {
+                    System.out.println("No se puede hacer");
+                    break;
+                }
             }
 
-            if (suma_litros >= 0){
-            System.out.println("La cantidad total de litros es: " + suma_litros);
+            if (resta_litros >= 0){
+                System.out.println("La cantidad total de litros es: " + suma_litros);
             }
-            else {
-                System.out.println("No se puede hacer");
-            }
-
 
             i+=1;
         }
