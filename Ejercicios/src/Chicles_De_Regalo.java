@@ -32,7 +32,8 @@ public class Chicles_De_Regalo {
 
                 chicles_gratis = chicles_comprados / envoltorios;
                 total_chicles = chicles_comprados + chicles_gratis;
-                resto_chicles = chicles_comprados % envoltorios;
+                chicles_gratis = total_chicles / envoltorios;
+                resto_chicles = chicles_gratis % envoltorios;
 
                 System.out.println("El total de chicles es: " + total_chicles);
                 System.out.println("El resto de chicles es: " + resto_chicles);
