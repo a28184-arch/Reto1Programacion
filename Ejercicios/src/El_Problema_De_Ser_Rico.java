@@ -53,7 +53,13 @@ public class El_Problema_De_Ser_Rico {
                 n+=1;
             }
 
+            if (suma_litros >= 0){
             System.out.println("La cantidad total de litros es: " + suma_litros);
+            }
+            else {
+                System.out.println("No se puede hacer");
+            }
+
 
             i+=1;
         }
