@@ -5,23 +5,32 @@ public class Suma_Descendente {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Dime un numero");
-        int numero = sc.nextInt();
+        int numero = 0;
 
-        while (numero != 0){
+        while (numero >= 0){
+            System.out.println("Dime un numero");
+            numero = sc.nextInt();
 
-            int divisor = 1;
-            int suma = 0;
+            if (numero >= 1 && numero <= 1000000000){
 
-            while (numero / divisor >= 10){
-                divisor *= 10;
+                int suma = 0;
+                int resto = 0;
+
+                for (int divisor = 1 ; numero >= divisor ; divisor = divisor * 10){
+                  resto = numero % divisor;
+                  suma += resto;
+                }
+
+                suma += numero;
+                System.out.println("El resultado es: " + suma);
+
+            } else if (numero > 1000000000) {
+                System.out.println("Numero demasiado grande");
+                numero = sc.nextInt();
+            } else {
+                System.out.println("Has salido");
+                break;
             }
-
-            suma += numero;
-
-            numero = numero % divisor;
-
-            System.out.println("El resultado es: " + suma);
         }
     }
 }
