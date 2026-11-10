@@ -12,7 +12,7 @@ public class Chicles_De_Regalo {
         int resto_chicles = 0;
 
         while (envoltorios >= 0){
-            System.out.println("Introduce los siguientes dataso separados por espacios| Cuantos envoltorios necesitas:|" +
+            System.out.println("Introduce los siguientes datos separados por espacios| Cuantos envoltorios necesitas:|" +
                     " Cuantos chicles gratis necesitas:| Cuantos chicles has comprado:");
             envoltorios= sc.nextInt();
             int chicles= sc.nextInt();

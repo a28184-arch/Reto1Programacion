@@ -16,7 +16,7 @@ public class El_Problema_De_Ser_Rico {
         {
             int n = 1;
 
-            System.out.println("Introduce los siguientes dataso separados por espacios | ¿Cuántos acuarios hay? |" +
+            System.out.println("Introduce los siguientes datos separados por espacios | ¿Cuántos acuarios hay? |" +
                     "¿Cuántos litros tiene el primer compartimento? | ¿Cuánta diferencia hay entre acuarios?");
             int numero_acuarios = sc.nextInt();
             int litros_acuario = sc.nextInt();
